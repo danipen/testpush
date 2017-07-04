@@ -1,0 +1,13 @@
+Source: plasticscm-certtools
+Section: unknown
+Priority: optional
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Build-Depends: debhelper
+
+Package: plasticscm-certtools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+         plasticscm-mono3-runtime (= 3.0.3.1-1.1),
+         plasticscm-mono3-runtime-sgen (= 3.0.3.1-1.1),
+Description: Certificate management tools modified to work
+ in batch mode (no user interaction).

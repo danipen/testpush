@@ -1,0 +1,5 @@
+#!/bin/bash
+
+MOZROOTSDIR=`dirname \`readlink -fn $0\``
+exec -a mozroots /opt/plasticscm5/mono/bin/mono "$MOZROOTSDIR/mozroots.exe" "$@"
+

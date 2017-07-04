@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CERTMGRDIR=`dirname \`readlink -fn $0\``
+exec -a certmgr /opt/plasticscm5/mono/bin/mono "$CERTMGRDIR/certmgr.exe" "$@"
+
