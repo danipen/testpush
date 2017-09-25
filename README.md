@@ -1,7 +1,7 @@
 # testpush
 Repository intended to tests commit&amp;push functionality
 
-NOW I WRITE THIS
+NOW I WRITE THIS FROM GITHUB, YOU NEED TO SEE
 
 This is my first change.
 
